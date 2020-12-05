@@ -9,7 +9,7 @@ module Memorable
     end
   end
   module InstanceMethods
-    def initialize(name)
+    def initialize
       self.class.all.push(self)
     end
   end
