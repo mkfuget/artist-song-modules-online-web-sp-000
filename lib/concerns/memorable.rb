@@ -6,4 +6,6 @@ module Memorable
   def count
     return all.length
   end
+  
+  def initialize(name)
 end
