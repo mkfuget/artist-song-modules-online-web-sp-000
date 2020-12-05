@@ -10,4 +10,7 @@ module Memorable
   end
   module InstanceMethods
     def initialize(name)
+      self.class.all.push(self)
+    end
+  end
 end
